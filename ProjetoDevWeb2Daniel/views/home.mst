@@ -1,0 +1,27 @@
+{{> header }}
+<center><h1 style="font-family: sans-serif">Apresentação do Projeto</h1></center><br>
+
+<div class="pag1">
+<ul>
+<a style="font-weight: bold">Nome: Daniel Irineu Dos Santos </a><br>
+<a style="font-weight: bold">Prof°: Vinicius Heltai </a><br>
+<a style="font-weight: bold">Matéria: Desenvolvimento de Software Multiplataforma</a><br>
+<a style="font-weight: bold">Semestre: 2°</a><br>
+</ul>
+
+<ul>
+    <a>Projeto deve ser realizado de forma individual;</a><br>
+    <a>Desenvolver na arquitetura MVC (conforme aula do dia);</a><br><br>
+    <a style="font-weight: bold">O projeto deve ter 3 rotas diferentes contendo:</a><br><br>
+    <li><a>Rota principal: Apresentação do projeto;</a></li>
+    <li><a>Rota secundária: Apresentar a grade de horário do 1ºSem/2023;</a></li>
+    <li><a>Rota terciária: Apresentar a estrutura (histórico escolar);</a></li>
+    <li><a>O projeto deve ser desenvolvido em Node.JS com os frameworks Mustache e Express.</a></li>
+    <li><a>As paginas devem ser criadas pelo servidor (webserver chamando as estruturas).</a></li>
+</ul>
+</div>
+
+
+
+
+

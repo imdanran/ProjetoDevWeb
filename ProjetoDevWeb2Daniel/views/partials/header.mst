@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+</head>
+<style>
+
+.menu{
+    padding-left: 20%;
+    display: flex;
+}
+.menu1{
+    display: flex;
+    background-color: black;
+    color: white;
+    background-color: grey;
+    font-family: sans-serif;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    text-decoration:none; 
+    font-size: medium;
+}
+
+.pag1{
+    width: 70%;
+    padding-left: 15%;
+    font-family: sans-serif;
+}
+</style>
+
+
+<ul class="menu" >
+  <a class="menu1" href="/"> Apresentação (Rota Principal) </a>
+  <a class="menu1" href="./rota2"> Grade de Horário (Rota Segundaria) </a>
+  <a class="menu1" href="./rota3"> Histórico Escolar (Rota Terciária) </a>
+</ul>

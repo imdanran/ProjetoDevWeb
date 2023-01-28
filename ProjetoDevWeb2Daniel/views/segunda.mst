@@ -1,0 +1,62 @@
+{{> header }}
+
+<center><h1 style="font-family: sans-serif">Horário das Aulas - 3°Semestre</h1></center><br>
+
+<div class="titulo" style="font-style: italic;">
+
+</div><table border="1" align="center">
+    <thead>
+        <tr>
+            <th>Dia</th>
+            <th>Disciplina</th>
+            <th>Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#segunda}}
+        <tr>
+            <td>Segunda</td>
+            <td>{{disciplina}}</td>
+            <td>{{hora}}</td><br>
+        </tr>
+        {{/segunda}}
+        {{#terca}}
+        <tr>
+            <td>Terça</td>
+            <td>{{disciplina}}</td>
+            <td>{{hora}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>{{disciplina2}}</td>
+            <td>{{hora2}}</td>
+        </tr>
+        {{/terca}}
+        {{#quarta}}
+        <tr>
+            <td>Quarta</td>
+            <td>{{disciplina}}</td>
+            <td>{{hora}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>{{disciplina2}}</td>
+            <td>{{hora2}}</td>
+        </tr>
+        {{/quarta}}
+        {{#quinta}}
+        <tr>
+            <td>Quinta</td>
+            <td>{{disciplina}}</td>
+            <td>{{hora}}</td>
+        </tr>
+        {{/quinta}}
+        {{#sexta}}
+        <tr>
+            <td>Sexta</td>
+            <td>{{disciplina}}</td>
+            <td>{{hora}}</td>
+        </tr>
+        {{/sexta}}
+    </tbody>
+</table>

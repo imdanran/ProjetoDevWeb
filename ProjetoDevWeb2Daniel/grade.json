@@ -1,0 +1,68 @@
+{
+    "status": [
+        {
+            "nome": "Aprovado",
+            "materias": [
+                {
+                    "nome": "Algoritmo e Lógica de Programação"
+                },
+                {
+                    "nome": "Modelagem de Banco de Dados"
+                },
+                {
+                    "nome": "Engenharia de Software I"
+                },
+                {
+                    "nome": "Sistemas Operacionais e Redes de Computadores"
+                },
+                {
+                    "nome": "Desenvolvimento Web I"
+                },
+                {
+                    "nome": "Design Digital"
+                },
+                {
+                    "nome": "Banco de Dados - Relacional"
+                },
+                {
+                    "nome": "Estrutura de Dados"
+                },
+                {
+                    "nome": "Engenharia de Software II"
+                },
+                {
+                    "nome": "Técnica de Programação I"
+                },
+                {
+                    "nome": "Matemática para Computação"
+                }
+            ]
+        },
+        {
+            "nome": "Em Curso",
+            "materias": [
+                {
+                    "nome": "Gestão Ágil de Projetos de Software"
+                },
+                {
+                    "nome": "Banco de Dados - Não relacional"
+                },
+                {
+                    "nome": "Inglês I"
+                },
+                {
+                    "nome": "Técnica de Programação II"
+                },
+                {
+                    "nome": "Interação Humano Computador"
+                },
+                {
+                    "nome": "Desenvolvimento Web III"
+                },
+                {
+                    "nome": "Algebra Linear"
+                }
+            ]
+        }
+    ]
+}

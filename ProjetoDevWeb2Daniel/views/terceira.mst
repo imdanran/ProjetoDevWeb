@@ -1,0 +1,27 @@
+{{> header }}
+
+<center><h1 style="font-family: sans-serif">Historico</h1></center><br>
+
+
+<table border="2" align="center" style="font-style: italic;" >
+  <thead>
+    <tr>
+      <th>Status</th>
+      <th>Materias</th>
+    </tr>
+  </thead>
+  <tbody >
+    {{#status}}
+      <tr >
+        <td>{{nome}}</td>
+        <td>
+          <ul>
+            {{#materias}}
+              <li>{{nome}}</li>
+            {{/materias}}
+          </ul>
+        </td>
+      </tr>
+    {{/status}}
+  </tbody>
+</table>
